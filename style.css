@@ -1,0 +1,202 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('./img/body2.jpg');
+    height:auto;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+main{
+    display: block;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    height: 100vh;
+    box-shadow: 30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 
+    40px rgb(0 0 0 / 10%);
+}
+.header{
+    display: flex;
+}
+h1{
+    font-weight: 400;
+}
+.text-div h2{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #888;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.text-div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.img-div{
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    width:60%;
+}
+a{
+    text-decoration: none;
+}
+/*
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    -webkit-box-shadow: 0px 0px 10px #F5ABC9;
+    -moz-box-shadow: 0px 0px 10px #F5ABC9;
+    box-shadow: 0px 0px 10px #F5ABC9;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    background: #F5ABC9;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #F5ABC9;
+    background-image: -webkit-linear-gradient(top, #F5ABC9, #f0659f);
+    background-image: -moz-linear-gradient(top, #F5ABC9, #f0659f);
+    background-image: -ms-linear-gradient(top, #F5ABC9, #f0659f);
+    background-image: -o-linear-gradient(top, #F5ABC9, #f0659f);
+    background-image: linear-gradient(to bottom, #F5ABC9, #f0659f);
+    text-decoration: none;
+  }
+  */
+  
+  .btn-grad {background-image: linear-gradient(to right, #ee9ca7 0%, #ffdde1  51%, #ee9ca7  100%)}
+  .btn-grad {
+     margin: 10px;
+     padding: 15px 35px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 50px;
+     display: block;
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+   @media (max-width: 500px) {
+        .body{
+            background-color: #EDEBEC;
+        }
+        .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        .text-div{
+        width: 100%;
+        background-color: #C8C2C2;
+        display: flex;
+        height: 50vh;
+        }
+        .img-div{
+        background-image: url(./img/bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        background-position-y: -200px;
+        width: 100%;
+        }
+        
+        .btn-grad {background-image: linear-gradient(to right, #003973 0%, #E5E5BE  51%, #003973  100%)}
+        .btn-grad {
+           margin: 10px;
+           padding: 15px 35px;
+           text-align: center;
+           text-transform: uppercase;
+           transition: 0.5s;
+           background-size: 200% auto;
+           color: white;            
+           box-shadow: 0 0 20px #eee;
+           border-radius: 70px;
+           display: block;
+         }
+
+         .btn-grad:hover {
+           background-position: right center; /* change the direction of the change here */
+           color: #fff;
+           text-decoration: none;
+         }
+        
+
+   }
+
+.header-two{
+    box-shadow: 30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 
+    40px rgb(0 0 0 / 10%);
+}
+.body1{
+       background-color: #333333;
+       padding: 0.8rem;
+       color: white;
+}
+h2{
+    display: inline-block;
+    border-left: 2px solid white;
+    border-right: white 2px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+p{
+    color: #888;
+}
+.body2{
+    background-color: white;
+    padding: 0.8rem;
+    color: #333333;
+}
+.body3{
+    background-color: white;
+    padding: 0.8rem;
+    color: #333333;
+}
+.body4{
+    background-color: white;
+    padding: 0.8rem;
+    color: #333333;
+}
+.body5{
+    background-color: white;
+    padding: 0.8rem;
+    color: #333333;
+}
+img{
+    display: block;
+    width: 100%;
+}
+
+footer{
+    padding: 2rem 1rem;
+    margin: auto;
+    text-align: center;
+}
+.bottom-container h3{
+    font-size: 2rem;
+
+}
+
+
+  
